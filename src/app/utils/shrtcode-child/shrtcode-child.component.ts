@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Shrtcodemodel } from 'src/app/interface/shrtcodemodel';
 
 @Component({
   selector: 'app-shrtcode-child',

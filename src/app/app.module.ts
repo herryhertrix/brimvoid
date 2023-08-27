@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardModule } from './dashboard/dashboard.module';
-import { ShrtcodeChildComponent } from './utils/shrtcode-child/shrtcode-child.component';
 
 const routes: Routes = [
   {

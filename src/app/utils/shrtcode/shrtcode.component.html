@@ -33,24 +33,10 @@
             </div>
         </div>
     </form>
-    <!-- *ngIf="items && items.length > 0" -->
     <div class="mx-10" *ngIf="items && items.length > 0">
         <div class="m-10 text-gray-400 text-[18px] font-semibold">Your links</div>
         <div *ngFor="let item of items">
             <app-shrtcode-child [shrtcode]="item"></app-shrtcode-child>
-            <!-- <div class="bg-white rounded-[10px] drop-shadow-md">
-                <div class="flex desktop:flex-row mobile:flex-col py-7 desktop:divide-y-0 mobile:divide-y-2">
-                    <div class="flex-grow text-[16px] leading-[24px] font-medium desktop:self-center mobile:self-start mx-5 py-5">https://brimvoid.com</div>
-                    <div class="flex desktop:flex-row mobile:flex-col desktop:pt-0 mobile:pt-5">
-                        <div class="text-[18px] leading-[18px] text-[#2DD4BF] font-medium desktop:self-center mobile:self-start mobile:mx-5">https://re.link/siduia</div>
-                        <button
-                            class="rounded-[10px] m-5 desktop:w-[177px] mobile:w-full h-[62px] grid text-center text-[20px] font-semibold text-white bg-[#2DD4BF] transition duration-200  hover:bg-[#0d9488] hover:ease-in-out active:bg-[#0f766e] focus:bg-[#0f766e] motion-reduce:transition-none"
-                            href="#">
-                            <span class="m-auto">Copy</span>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </div>

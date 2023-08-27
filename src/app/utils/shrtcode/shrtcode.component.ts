@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
 import { Shrtcodemodel } from 'src/app/interface/shrtcodemodel';
 import { GenerateShrtcodeService } from 'src/app/service/generate-shrtcode.service';
 import {
