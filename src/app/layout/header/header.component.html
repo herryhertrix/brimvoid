@@ -1,0 +1,80 @@
+<!-- Main navigation container -->
+<nav
+  class="max-w-[1045px] mx-auto relative flex w-full flex-nowrap items-center justify-between py-2 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 desktop:flex-wrap desktop:justify-start desktop:py-10 mobile:py-5"
+  data-te-navbar-ref>
+  <div class="flex w-full flex-wrap items-center justify-between mx-10">
+    <a class="text-[32px] leading-[32px] font-semibold text-gray-800 dark:text-neutral-200" href="#">Shortly</a>
+    <!-- Hamburger button for mobile view -->
+    <button
+      class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 desktop:hidden"
+      type="button" data-te-collapse-init data-te-target="#navbarSupportedContent3"
+      aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Hamburger icon -->
+      <span class="[&>svg]:w-7">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </span>
+    </button>
+
+    <!-- Collapsible navbar container -->
+    <div
+      class="!visible mt-2 hidden desktop:bg-white rounded-[10px] mobile:bg-[#1f2a37] flex-grow basis-[100%] items-center desktop:mt-0 desktop:!flex desktop:basis-auto text-[20px] leading-[20px] text-gray-500 font-medium divide-y desktop:divide-y-0 mobile:divide-y-2 divide-gray-600 gap-5"
+      id="navbarSupportedContent3" data-te-collapse-item>
+      <!-- Left links -->
+      <div class="list-style-none mr-auto flex flex-col pl-0 desktop:py-0 mobile:py-5 desktop:mt-1 desktop:flex-row desktop:ml-10"
+        data-te-navbar-nav-ref>
+        <!-- Home link -->
+        <div class="my-4 pl-2 mx-auto desktop:my-0 desktop:pl-2 desktop:pr-1" data-te-nav-item-ref>
+          <a class="disabled:text-black/30 desktop:px-2 
+            text-[19px] p-0 transition duration-200 
+            desktop:font-medium mobile:font-semibold
+                desktop:text-gray-500 mobile:text-white
+                hover:text-gray-900 hover:ease-in-out 
+                focus:text-gray-700 motion-reduce:transition-none" aria-current="page" href="#"
+            data-te-nav-link-ref>Features</a>
+        </div>
+        <!-- Features link -->
+        <div class="mb-4 pl-2 mx-auto desktop:mb-0 desktop:pl-0 desktop:pr-1" data-te-nav-item-ref>
+          <a class="disabled:text-black/30 desktop:px-2 
+          text-[19px] p-0 transition duration-200 
+          desktop:font-medium mobile:font-semibold
+          desktop:text-gray-500 mobile:text-white
+          hover:text-gray-900 hover:ease-in-out 
+          focus:text-gray-700 motion-reduce:transition-none" href="#" data-te-nav-link-ref>Pricing</a>
+        </div>
+        <!-- Pricing link -->
+        <div class="mb-4 pl-2 mx-auto desktop:mb-0 desktop:pl-0 desktop:pr-1" data-te-nav-item-ref>
+          <a class="disabled:text-black/30 desktop:px-2 
+          text-[19px] p-0 transition duration-200 
+          desktop:font-medium mobile:font-semibold
+          desktop:text-gray-500 mobile:text-white
+          hover:text-gray-900 hover:ease-in-out 
+          focus:text-gray-700 motion-reduce:transition-none" href="#" data-te-nav-link-ref>Recources</a>
+        </div>
+      </div>
+      <div class="relative flex desktop:flex-row mobile:flex-col desktop:py-0 mobile:py-10 gap-5 items-center">
+        <a class="desktop:text-gray-500 mobile:text-white desktop:text-[16px] mobile:text-[20px] font-semibold transition duration-200 hover:text-gray-700 hover:ease-in-out focus:text-gray-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-gray-300 dark:focus:text-neutral-300 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+          href="#">
+          Login
+        </a>
+        <a class="rounded-[30px] w-[149px] h-[62px] text-center text-white grid text-center text-[20px] font-semibold text-white bg-[#2DD4BF] transition duration-200  hover:bg-[#0d9488] hover:ease-in-out active:bg-[#0f766e] focus:bg-[#0f766e] motion-reduce:transition-none"
+          href="#">
+          <span class="my-auto"> Sign Up</span>
+        </a>
+      </div>
+    </div>
+    <!-- <div class="relative flex items-center">
+      <a class="mr-4 text-gray-500 text-[16px] font-semibold transition duration-200 hover:text-gray-700 hover:ease-in-out focus:text-gray-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-gray-300 dark:focus:text-neutral-300 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+        href="#">
+        Login
+      </a>
+      <a class="rounded-[30px] px-7 py-2 text-center text-white grid text-center text-[20px] font-semibold text-white bg-[#2DD4BF] transition duration-200  hover:bg-[#0d9488] hover:ease-in-out active:bg-[#0f766e] focus:bg-[#0f766e] motion-reduce:transition-none"
+        href="#">
+        <span> Sign Up</span>
+      </a>
+    </div> -->
+  </div>
+</nav>
