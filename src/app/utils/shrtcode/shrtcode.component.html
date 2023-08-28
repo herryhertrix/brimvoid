@@ -1,7 +1,7 @@
-<div class="max-w-[1045px] mx-auto left-0 right-0 ">
+<div class="max-w-[1045px] mx-auto left-0 right-0 relative pb-[100px] ">
     <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
         <div
-            class="mx-10 text-center h-[200px] rounded-[10px] grid mt-[-100px] bg-[url('/assets/images/bg-shorten-desktop.svg')] bg-cover bg-no-repeat bg-center bg-[#581C87]">
+            class="mx-10 text-center right-0 left-0 h-[200px] absolute rounded-[10px] grid mt-[-100px] bg-[url('/assets/images/bg-shorten-desktop.svg')] bg-cover bg-no-repeat bg-center bg-[#581C87]" >
             <div class="flex desktop:flex-row mobile:flex-col gap-7 mx-10 my-auto">
                 <div class="flex-grow relative">
                     <div class="relative">
@@ -33,7 +33,7 @@
             </div>
         </div>
     </form>
-    <div class="mx-10" *ngIf="items && items.length > 0">
+    <div class="mx-10 pt-[100px]" *ngIf="items && items.length > 0">
         <div class="m-10 text-gray-400 text-[18px] font-semibold">Your links</div>
         <div *ngFor="let item of items">
             <app-shrtcode-child [shrtcode]="item"></app-shrtcode-child>

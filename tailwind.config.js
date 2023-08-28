@@ -8,6 +8,7 @@ module.exports = {
     screens: {
       'mobile': '320px',
       'desktop': '768px',
+      'desktopXL': '1042px',
       // => @media (max-width: 767px) { ... }
     },
     extend: {},
